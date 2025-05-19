@@ -1,9 +1,8 @@
-# Projeto de Estatística Aplicada
+# Projeto de Mineração
 
-## 🧑‍💻 Autores  
-- Nome 1 (matrícula) - email  
-- Nome 2 (matrícula) - email  
-- Nome 3 (matrícula) - email  
+## 🧑‍💻 Autor  
+
+- João Pedro de Lima e Silva (201921250031) - joao.silva.4@academico.ifpb.edu.br
 
 ## 🎯 Tema e Motivação  
 Descreva em até dois parágrafos o tema que será investigado no projeto e a motivação da equipe para essa escolha.  
