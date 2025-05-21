@@ -16,11 +16,13 @@
   Kaggle: https://www.kaggle.com/datasets/behrad3d/nasa-cmaps
   Referência oficial: https://www.nasa.gov/intelligent-systems-division/
 - **Descrição breve:**  
-  
+  Esse conjunto traz dados simulados de motores a jato funcionando até a falha, gerados pela NASA usando o simulador C-MAPSS. Cada motor tem vários ciclos de operação, e em cada um deles são registrados dados de sensores e condições operacionais. Ao todo são 21 sensores, mais 3 variáveis operacionais, e um identificador do motor. A base é dividida em quatro subconjuntos com diferentes cenários e modos de falha. O foco principal é usar esses dados pra prever quanto tempo de vida útil (RUL) ainda resta pro motor antes de falhar.
+
+  O conjunto abrange quatro diferentes conjuntos de teste (FD001 a FD004), cada um representando diferentes combinações de variabilidade nas condições operacionais e nas falhas. Neste projeto, foi utilizado inicialmente o subset FD001, que possui condições operacionais e modos de falha fixos.
 
 
 - **Justificativa para a escolha:**  
-  Escolhi esse conjunto de dados porque ele é bem completo, confiável (vem da NASA) e já foi usado em vários estudos sobre manutenção preditiva. Ele permite trabalhar com séries temporais de sensores reais de motores simulados, o que ajuda a entender como os motores se degradam com o tempo. Além disso, é ideal pra testar modelos de regressão e aprendizado de máquina voltados pra prever a vida útil dos motores. Como gosto da parte de hardware e sensores, achei que essa base encaixa bem com o tipo de problema que me interessa.
+  Escolhi esse conjunto de dados porque ele é bem completo, confiável e já foi usado em vários estudos sobre manutenção preditiva. Ele permite trabalhar com séries temporais de sensores reais de motores simulados, o que ajuda a entender como os motores se degradam com o tempo. Além disso, é ideal pra testar modelos de regressão e aprendizado de máquina voltados pra prever a vida útil dos motores. Como gosto da parte de hardware e sensores, achei que essa base encaixa bem com o tipo de problema que me interessa.
 
 ---
 
