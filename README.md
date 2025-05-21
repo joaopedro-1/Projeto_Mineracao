@@ -14,7 +14,9 @@
   
 - **Fonte:**  
   Kaggle: https://www.kaggle.com/datasets/behrad3d/nasa-cmaps
+  
   Referência oficial: https://www.nasa.gov/intelligent-systems-division/
+  
 - **Descrição breve:**  
   Esse conjunto traz dados simulados de motores a jato funcionando até a falha, gerados pela NASA usando o simulador C-MAPSS. Cada motor tem vários ciclos de operação, e em cada um deles são registrados dados de sensores e condições operacionais. Ao todo são 21 sensores, mais 3 variáveis operacionais, e um identificador do motor. A base é dividida em quatro subconjuntos com diferentes cenários e modos de falha. O foco principal é usar esses dados pra prever quanto tempo de vida útil (RUL) ainda resta pro motor antes de falhar.
 
