@@ -9,14 +9,16 @@ Descreva em até dois parágrafos o tema que será investigado no projeto e a mo
 Explique por que esse tema é relevante ou interessante do ponto de vista estatístico ou social.
 
 ## 📊 Conjunto de Dados Selecionado  
-- **Nome do conjunto de dados:**  
+- **Kaggle - NASA C-MAPSS Turbofan Engine Degradation Simulation**  
   (Exemplo: "World Happiness Report", "ENEM 2023", "IBGE - PNAD Contínua", "Kaggle - Netflix Movies", etc.)
 
 - **Fonte:**  
-  (Link ou citação da base de dados)
+  (https://www.kaggle.com/datasets/behrad3d/nasa-cmaps)
 
 - **Descrição breve:**  
-  Explique o que representa esse conjunto de dados, qual o escopo (temporal, geográfico, etc.), quais as principais variáveis presentes e o motivo pelo qual ele foi escolhido.  
+  Este conjunto de dados simula o comportamento de motores a jato de aeronaves sob diferentes condições de operação e desgaste. Ele contém leituras de 21 sensores, 3 variáveis de configuração e registros de ciclos de operação de vários motores até o ponto de falha. Os dados foram gerados usando o modelo C-MAPSS (Commercial Modular Aero-Propulsion System Simulation) da NASA.
+
+O conjunto abrange quatro diferentes conjuntos de teste (FD001 a FD004), cada um representando diferentes combinações de variabilidade nas condições operacionais e nas falhas. Neste projeto, foi utilizado inicialmente o subset FD001, que possui condições operacionais e modos de falha fixos. 
 
 - **Justificativa para a escolha:**  
   Indique por que esse conjunto de dados permite análises estatísticas interessantes e como ele pode responder a questões relevantes.
