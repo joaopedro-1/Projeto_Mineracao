@@ -13,7 +13,7 @@
   Kaggle - NASA Turbofan Jet Engine Data Set
   
 - **Fonte:**
-- 
+
   Kaggle: https://www.kaggle.com/datasets/behrad3d/nasa-cmaps
   
   Referência oficial: https://www.nasa.gov/intelligent-systems-division/
