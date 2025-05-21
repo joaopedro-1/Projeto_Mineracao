@@ -10,6 +10,7 @@
   O conjunto de dados da NASA foi selecionado por conter uma grande quantidade de informações sobre motores a jato operando até o ponto de falha. Isso permite a análise do desgaste e da vida útil de motores de forma eficiente. Além de ser uma base confiável e amplamente utilizada, ela oferece um bom cenário para aplicar técnicas de mineração de dados e prever falhas com base nos padrões de funcionamento registrados.
 ## 📊 Conjunto de Dados Selecionado  
 - **Nome do conjunto de dados:**
+  
   Kaggle - NASA Turbofan Jet Engine Data Set
   
 - **Fonte:**
