@@ -18,7 +18,7 @@ Explique por que esse tema é relevante ou interessante do ponto de vista estat�
 - **Descrição breve:**  
   Este conjunto de dados simula o comportamento de motores a jato de aeronaves sob diferentes condições de operação e desgaste. Ele contém leituras de 21 sensores, 3 variáveis de configuração e registros de ciclos de operação de vários motores até o ponto de falha. Os dados foram gerados usando o modelo C-MAPSS (Commercial Modular Aero-Propulsion System Simulation) da NASA.
 
-O conjunto abrange quatro diferentes conjuntos de teste (FD001 a FD004), cada um representando diferentes combinações de variabilidade nas condições operacionais e nas falhas. Neste projeto, foi utilizado inicialmente o subset FD001, que possui condições operacionais e modos de falha fixos. 
+  O conjunto abrange quatro diferentes conjuntos de teste (FD001 a FD004), cada um representando diferentes combinações de variabilidade nas condições operacionais e nas falhas. Neste projeto, foi utilizado inicialmente o subset FD001, que possui condições operacionais e modos de falha fixos. 
 
 - **Justificativa para a escolha:**  
   Indique por que esse conjunto de dados permite análises estatísticas interessantes e como ele pode responder a questões relevantes.
