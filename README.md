@@ -5,9 +5,9 @@
 - João Pedro de Lima e Silva (201921250031) - joao.silva.4@academico.ifpb.edu.br
 
 ## 🎯 Tema e Motivação  
-  Como entusiasta da área de hardware e sistemas embarcados, no início, a ideia era usar um sensor giroscópio para coletar dados de motores de ar-condicionado e analisar o comportamento deles ao longo do tempo. Mas como isso ia demandar mais estrutura e tempo, decidi usar uma base de dados pronta.
+  Inicialmente, a proposta era utilizar um sensor giroscópio para coletar dados de motores de ar-condicionado e analisar o comportamento dos mesmos ao longo do tempo. No entanto, devido à demanda por mais estrutura e tempo para essa abordagem, optou-se pela utilização de uma base de dados pronta.
 
-  Escolhi esse conjunto da NASA porque já traz muitos dados sobre motores a jato funcionando até falharem, o que tem tudo a ver com o que eu queria estudar: o desgaste e o tempo de vida útil de motores. Além disso, é um conjunto bem conhecido e confiável, o que me dá mais liberdade pra focar nas análises e aplicar técnicas de mineração de dados pra prever falhas e entender os padrões de funcionamento desses motores.
+  O conjunto de dados da NASA foi selecionado por conter uma grande quantidade de informações sobre motores a jato operando até o ponto de falha. Isso permite a análise do desgaste e da vida útil de motores de forma eficiente. Além de ser uma base confiável e amplamente utilizada, ela oferece um bom cenário para aplicar técnicas de mineração de dados e prever falhas com base nos padrões de funcionamento registrados.
 ## 📊 Conjunto de Dados Selecionado  
 - **Nome do conjunto de dados:**
   Kaggle - NASA Turbofan Jet Engine Data Set
@@ -19,14 +19,10 @@
   Referência oficial: https://www.nasa.gov/intelligent-systems-division/
   
 - **Descrição breve:**  
-  Esse conjunto traz dados simulados de motores a jato funcionando até a falha, gerados pela NASA usando o simulador C-MAPSS. Cada motor tem vários ciclos de operação, e em cada um deles são registrados dados de sensores e condições operacionais. Ao todo são 21 sensores, mais 3 variáveis operacionais, e um identificador do motor. A base é dividida em quatro subconjuntos com diferentes cenários e modos de falha. O foco principal é usar esses dados pra prever quanto tempo de vida útil (RUL) ainda resta pro motor antes de falhar.
-
-  O conjunto abrange quatro diferentes conjuntos de teste (FD001 a FD004), cada um representando diferentes combinações de variabilidade nas condições operacionais e nas falhas. Neste projeto, foi utilizado inicialmente o subset FD001, que possui condições operacionais e modos de falha fixos.
-
-
+  O conjunto de dados apresenta informações simuladas de motores a jato operando até a falha, geradas pela NASA por meio do simulador C-MAPSS. Cada motor é monitorado por 21 sensores e 3 variáveis operacionais ao longo de vários ciclos de operação. A base está dividida em quatro subconjuntos (FD001 a FD004), que representam diferentes cenários de variabilidade nas condições e nos modos de falha. Neste projeto, foi utilizado inicialmente o subset FD001, que possui condições operacionais e modos de falha fixos. O objetivo principal é prever a quantidade de ciclos restantes antes da falha (Remaining Useful Life - RUL).
+  
 - **Justificativa para a escolha:**  
-  Escolhi esse conjunto de dados porque ele é bem completo, confiável e já foi usado em vários estudos sobre manutenção preditiva. Ele permite trabalhar com séries temporais de sensores reais de motores simulados, o que ajuda a entender como os motores se degradam com o tempo. Além disso, é ideal pra testar modelos de regressão e aprendizado de máquina voltados pra prever a vida útil dos motores. Como gosto da parte de hardware e sensores, achei que essa base encaixa bem com o tipo de problema que me interessa.
-
+  O conjunto é completo, confiável e amplamente utilizado em pesquisas voltadas para manutenção preditiva. Permite trabalhar com séries temporais de dados sensoriais, possibilitando análises aprofundadas sobre degradação de motores. Além disso, oferece uma base sólida para aplicação de modelos estatísticos e de aprendizado de máquina em problemas reais relacionados à vida útil de componentes mecânicos.
 ---
 
 ## ❓ Perguntas ou Hipóteses  
