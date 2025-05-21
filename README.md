@@ -5,23 +5,22 @@
 - João Pedro de Lima e Silva (201921250031) - joao.silva.4@academico.ifpb.edu.br
 
 ## 🎯 Tema e Motivação  
-Descreva em até dois parágrafos o tema que será investigado no projeto e a motivação da equipe para essa escolha.  
-Explique por que esse tema é relevante ou interessante do ponto de vista estatístico ou social.
+  Como entusiasta da área de hardware e sistemas embarcados, no início, a ideia era usar um sensor giroscópio para coletar dados de motores de ar-condicionado e analisar o comportamento deles ao longo do tempo. Mas como isso ia demandar mais estrutura e tempo, decidi usar uma base de dados pronta.
 
+  Escolhi esse conjunto da NASA porque já traz muitos dados sobre motores a jato funcionando até falharem, o que tem tudo a ver com o que eu queria estudar: o desgaste e o tempo de vida útil de motores. Além disso, é um conjunto bem conhecido e confiável, o que me dá mais liberdade pra focar nas análises e aplicar técnicas de mineração de dados pra prever falhas e entender os padrões de funcionamento desses motores.
 ## 📊 Conjunto de Dados Selecionado  
-- **Kaggle - NASA C-MAPSS Turbofan Engine Degradation Simulation**  
-  (Exemplo: "World Happiness Report", "ENEM 2023", "IBGE - PNAD Contínua", "Kaggle - Netflix Movies", etc.)
-
+- **Nome do conjunto de dados:**
+  Kaggle - NASA Turbofan Jet Engine Data Set
+  
 - **Fonte:**  
-  (https://www.kaggle.com/datasets/behrad3d/nasa-cmaps)
-
+  Kaggle: https://www.kaggle.com/datasets/behrad3d/nasa-cmaps
+  Referência oficial: https://www.nasa.gov/intelligent-systems-division/
 - **Descrição breve:**  
-  Este conjunto de dados simula o comportamento de motores a jato de aeronaves sob diferentes condições de operação e desgaste. Ele contém leituras de 21 sensores, 3 variáveis de configuração e registros de ciclos de operação de vários motores até o ponto de falha. Os dados foram gerados usando o modelo C-MAPSS (Commercial Modular Aero-Propulsion System Simulation) da NASA.
+  
 
-  O conjunto abrange quatro diferentes conjuntos de teste (FD001 a FD004), cada um representando diferentes combinações de variabilidade nas condições operacionais e nas falhas. Neste projeto, foi utilizado inicialmente o subset FD001, que possui condições operacionais e modos de falha fixos. 
 
 - **Justificativa para a escolha:**  
-  Indique por que esse conjunto de dados permite análises estatísticas interessantes e como ele pode responder a questões relevantes.
+  Escolhi esse conjunto de dados porque ele é bem completo, confiável (vem da NASA) e já foi usado em vários estudos sobre manutenção preditiva. Ele permite trabalhar com séries temporais de sensores reais de motores simulados, o que ajuda a entender como os motores se degradam com o tempo. Além disso, é ideal pra testar modelos de regressão e aprendizado de máquina voltados pra prever a vida útil dos motores. Como gosto da parte de hardware e sensores, achei que essa base encaixa bem com o tipo de problema que me interessa.
 
 ---
 
