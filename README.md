@@ -30,8 +30,7 @@
 - É possível prever com boa precisão a vida útil restante (RUL) de um motor com base nos dados dos sensores?
 - Existe algum sensor ou variável que se destaque como mais relevante na previsão da falha?
 - O comportamento dos sensores se altera de forma perceptível nas fases finais antes da falha?
-
-Técnicas de regressão simples (como regressão linear) conseguem resultados competitivos em relação a modelos mais complexos?
+- Técnicas de regressão simples (como regressão linear) conseguem resultados competitivos em relação a modelos mais complexos?
 
 ## 🔍 Metodologia  
 *A preencher na próxima etapa.*  
