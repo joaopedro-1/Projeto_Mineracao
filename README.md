@@ -80,12 +80,17 @@ O projeto seguiu um fluxo de trabalho estruturado:
 
   
 ## 📌 Conclusões  
-*A preencher no final do projeto.*  
-Síntese dos aprendizados e implicações das análises realizadas.
+- O conjunto de dados da NASA é rico em informações e permite análises robustas sobre a degradação de motores.
+- A previsão da RUL é desafiadora, mas modelos como o MLP Regressor mostraram resultados promissores.
+- Sensores como s_9 e s_14 são candidatos a features importantes para modelos futuros.
 
 ## ⚠️ Limitações e Trabalhos Futuros  
-*A preencher no final do projeto.*  
-Quais foram as limitações do estudo e o que poderia ser feito com mais tempo ou dados adicionais.
+**Limitações:**
+- O subset FD001 possui apenas um modo de falha, limitando a generalização dos resultados.
+- A precisão dos modelos pode ser melhorada com mais ajustes e técnicas avançadas.
 
----
+**Trabalhos Futuros:**
+- Incluir os outros subsets (FD002 a FD004) para análise de múltiplos modos de falha.
+- Testar modelos mais complexos, como redes neurais profundas ou XGBoost.
+- Incorporar técnicas de séries temporais para capturar melhor a evolução da degradação.
 
