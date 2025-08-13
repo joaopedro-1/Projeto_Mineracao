@@ -55,8 +55,12 @@ O projeto seguiu um fluxo de trabalho estruturado:
 - Avaliação dos modelos usando métricas como RMSE e R².
   
 ## 🛠️ Ferramentas Utilizadas  
-*A preencher na próxima etapa.*  
-Quais linguagens, bibliotecas ou softwares serão utilizados no projeto.
+- **Linguagem:** Python
+- **Bibliotecas**
+- pandas, numpy
+- matplotlib, seaborn
+- scikit-learn
+- kagglehub
 
 ## 📈 Resultados  
 *A preencher após as análises.*  
