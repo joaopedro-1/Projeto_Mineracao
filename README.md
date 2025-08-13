@@ -56,16 +56,29 @@ O projeto seguiu um fluxo de trabalho estruturado:
   
 ## 🛠️ Ferramentas Utilizadas  
 - **Linguagem:** Python
-- **Bibliotecas**
+  
+**Bibliotecas:**
 - pandas, numpy
 - matplotlib, seaborn
 - scikit-learn
 - kagglehub
 
 ## 📈 Resultados  
-*A preencher após as análises.*  
-Resumo visual e interpretativo dos principais achados.
+**Análise Exploratória:**
+ - Distribuição da RUL: A vida útil dos motores varia entre 128 e 362 ciclos, com média de aproximadamente 206 ciclos.
+ - Sensores: Sensores como s_9 e s_14 apresentam maior variabilidade, enquanto s_18 e s_19 não apresentam flutuação alguma.
+ - Padrões de Degradação: Alguns sensores mostram mudanças significativas conforme o motor se aproxima da falha.
+## Modelagem Preditiva:
 
+| Modelo                  | RMSE   | R²     |
+|-------------------------|--------|--------|
+| Regressão Linear        | 4.10   | 47.28% |
+| Random Forest           | 4.03   | 48.85% |
+| Rede Neural (MLP)       | 3.74   | 56.11% |
+
+- Melhor Modelo: A Rede Neural (MLP) apresentou o melhor desempenho, com um R² de 56.11%, indicando uma capacidade moderada de prever a RUL.
+
+  
 ## 📌 Conclusões  
 *A preencher no final do projeto.*  
 Síntese dos aprendizados e implicações das análises realizadas.
