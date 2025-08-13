@@ -35,13 +35,17 @@
 
 ## 🔍 Metodologia  
 O projeto seguiu um fluxo de trabalho estruturado:
-1 **Exploração e Limpeza:**
+ **1 Exploração e Limpeza:**
 - Carregamento dos dados.
 - Renomeação das colunas para melhor compreensão.
 - Identificação e tratamento de valores ausentes ou duplicados.
+  
 2 **Análise Exploratória (EDA):**
+
 3 **Engenharia de Features:**
+
 4 **Modelagem Preditiva:**
+
 ## 🛠️ Ferramentas Utilizadas  
 *A preencher na próxima etapa.*  
 Quais linguagens, bibliotecas ou softwares serão utilizados no projeto.
