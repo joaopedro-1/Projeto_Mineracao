@@ -35,6 +35,7 @@
 
 ## 🔍 Metodologia  
 O projeto seguiu um fluxo de trabalho estruturado:
+
  **1 Exploração e Limpeza:**
 - Carregamento dos dados.
 - Renomeação das colunas para melhor compreensão.
