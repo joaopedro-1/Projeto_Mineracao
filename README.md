@@ -36,17 +36,24 @@
 ## 🔍 Metodologia  
 O projeto seguiu um fluxo de trabalho estruturado:
 
- **1 Exploração e Limpeza:**
+ **1.Exploração e Limpeza:**
 - Carregamento dos dados.
 - Renomeação das colunas para melhor compreensão.
 - Identificação e tratamento de valores ausentes ou duplicados.
   
-2 **Análise Exploratória (EDA):**
-
-3 **Engenharia de Features:**
-
-4 **Modelagem Preditiva:**
-
+**2.Análise Exploratória (EDA):**
+ - Estatísticas descritivas (média, mediana, desvio padrão, etc.).
+ - Visualizações (histogramas, boxplots, gráficos de dispersão).
+ - Identificação de padrões e anomalias nos dados.
+   
+**3.Engenharia de Features:**
+- Cálculo da Vida Útil Restante (RUL) para cada motor.
+- Seleção de sensores e variáveis mais relevantes.
+  
+**4.Modelagem Preditiva:**
+- Implementação de modelos de regressão (Linear Regression, Random Forest, MLP Regressor).
+- Avaliação dos modelos usando métricas como RMSE e R².
+  
 ## 🛠️ Ferramentas Utilizadas  
 *A preencher na próxima etapa.*  
 Quais linguagens, bibliotecas ou softwares serão utilizados no projeto.
